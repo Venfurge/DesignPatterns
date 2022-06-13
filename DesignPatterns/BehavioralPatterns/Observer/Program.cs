@@ -12,3 +12,6 @@ oven.BakePizza(new Pizza("Bacon", 2.99));
 IObserver waiter = new Waiter(oven);
 
 oven.BakePizza(new Pizza("Salmon", 4.49));
+
+//Method to compare how works build-in Observer
+//Observer.UseSystemObserver.Execute();
