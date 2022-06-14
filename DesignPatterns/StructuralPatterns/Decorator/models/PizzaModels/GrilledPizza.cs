@@ -2,19 +2,9 @@
 
 namespace Decorator.models.PizzaModels
 {
-    internal class GrilledPizza : IPizza
+    internal class GrilledPizza : Pizza
     {
-        public string Description { get; set; } = "Grilled pizza";
-        public double Price { get; set; } = 0.99;
-
-        public double getPrice()
-        {
-            return Price;
-        }
-
-        public string getDescription()
-        {
-            return Description;
-        }
+        public override string Description { get; set; } = "Grilled pizza";
+        public override double Price { get; set; } = 0.99;
     }
 }

@@ -3,12 +3,19 @@ using Decorator.interfaces;
 using Decorator.models.PizzaModels;
 using Decorator.models.PizzaToppingModels;
 
-IPizza pizza = new ClassicPizza();
+Pizza pizza = new ClassicPizza();
 
-pizza = new Mocarella(pizza);
-pizza = new Mocarella(pizza);
+pizza = new Mozzarella(pizza);
+pizza = new Mozzarella(pizza);
 pizza = new TomatoSauce(pizza);
 pizza = new Salami(pizza);
+pizza = new Salami(pizza);
+pizza = new Salami(pizza);
+pizza = new Bacon(pizza);
+pizza = new Bacon(pizza);
+pizza = new Bacon(pizza);
+pizza = new Bacon(pizza);
+pizza = new Bacon(pizza);
 
-Console.WriteLine(pizza.getDescription());
-Console.WriteLine(pizza.getPrice());
+Console.WriteLine(pizza.GetPrettieDescription());
+Console.WriteLine(pizza.GetPrice());

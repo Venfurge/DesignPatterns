@@ -2,23 +2,13 @@
 
 namespace Decorator.models.PizzaToppingModels
 {
-    internal class TomatoSauce : IPizzaToppingDecorator
+    internal class TomatoSauce : PizzaToppingDecorator
     {
-        public IPizza Pizza { get; set; }
-        public string Description { get; set; } = "Tomato sauce";
-        public double Price { get; set; } = 0.2;
+        public override Pizza Pizza { get; set; }
+        public override string Description { get; set; } = "TomatoSauce";
+        public override double Price { get; set; } = 0.2;
 
-        public TomatoSauce(IPizza pizza)
+        public TomatoSauce(Pizza pizza)
             => (Pizza) = (pizza);
-
-        public double getPrice()
-        {
-            return Pizza.getPrice() + Price;
-        }
-
-        public string getDescription()
-        {
-            return $"{Pizza.getDescription()}, {Description}";
-        }
     }
 }
