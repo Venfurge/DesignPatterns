@@ -5,8 +5,8 @@ using Decorator.models.PizzaToppingModels;
 
 IPizza pizza = new ClassicPizza();
 
-pizza = new Mocarella(pizza);
-pizza = new Mocarella(pizza);
+pizza = new Mozzarella(pizza);
+pizza = new Mozzarella(pizza);
 pizza = new TomatoSauce(pizza);
 pizza = new Salami(pizza);
 
