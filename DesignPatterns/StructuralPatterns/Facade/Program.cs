@@ -5,17 +5,11 @@ using Facade.models.boxingStrategies;
 using Facade.models.cuttingStrategies;
 
 IPizza pizza = new CheesePizza("Mozzarella", 2.99);
-Oven.Bake(pizza);
+PizzaPreparingFacade pizzaFacade = new PizzaPreparingFacade(
+    new SquareCutStrategy(),
+    new SquareBoxStrategy());
 
-ICuttingStrategy cuttingStrategy = new SquareCutStrategy();
-CuttingTable cuttingTable = new CuttingTable(cuttingStrategy);
-cuttingTable.Cut(pizza);
+pizzaFacade.Prepare(pizza);
 
-IBoxingStrategy boxingStrategy = new SquareBoxStrategy();
-BoxingTable boxingTable = new BoxingTable(boxingStrategy);
-boxingTable.Box(pizza);
-
-if(pizza.isCutted && pizza.isBoxed)
-{
-    Console.WriteLine($"{pizza.Name} pizza is prepared");
-}
+pizzaFacade.setBoxingStrategy(new CircleBoxStrategy());
+pizzaFacade.Prepare(pizza);
