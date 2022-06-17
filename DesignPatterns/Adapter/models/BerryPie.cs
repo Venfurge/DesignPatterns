@@ -6,6 +6,9 @@ namespace Adapter.models
     {
         public string Name { get; set; }
 
+        public BerryPie(string name)
+            => (Name) = (name);
+
         public void Bake()
         {
             Console.WriteLine($"{Name} pie is baking...");
