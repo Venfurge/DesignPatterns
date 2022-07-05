@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "Behaviora
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "BehavioralPatterns\Iterator\Iterator.csproj", "{09797DAD-380B-4E7E-8670-57FDFA6D9C96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "StructuralPatterns\Composite\Composite.csproj", "{81C63B87-9FDC-421B-A928-1957B252FA8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "StructuralPatterns\Composite\Composite.csproj", "{81C63B87-9FDC-421B-A928-1957B252FA8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "BehavioralPatterns\State\State.csproj", "{5B5502BD-66C7-4184-BC24-5AFCCFF3A05E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{81C63B87-9FDC-421B-A928-1957B252FA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81C63B87-9FDC-421B-A928-1957B252FA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81C63B87-9FDC-421B-A928-1957B252FA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5502BD-66C7-4184-BC24-5AFCCFF3A05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5502BD-66C7-4184-BC24-5AFCCFF3A05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5502BD-66C7-4184-BC24-5AFCCFF3A05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5502BD-66C7-4184-BC24-5AFCCFF3A05E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +110,7 @@ Global
 		{ABECD3DC-82FE-4B41-8E5F-39E1C9EE7EC1} = {E3AFA03E-AC1D-411F-A7EE-0C870462FE05}
 		{09797DAD-380B-4E7E-8670-57FDFA6D9C96} = {E3AFA03E-AC1D-411F-A7EE-0C870462FE05}
 		{81C63B87-9FDC-421B-A928-1957B252FA8F} = {05D9F1A5-F821-4753-B7C4-B5A2D99F56E1}
+		{5B5502BD-66C7-4184-BC24-5AFCCFF3A05E} = {E3AFA03E-AC1D-411F-A7EE-0C870462FE05}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67F9A2B3-8AE1-4A26-B17C-829BC805DB8C}
