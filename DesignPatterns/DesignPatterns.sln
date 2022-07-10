@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "BehavioralPatte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "StructuralPatterns\Composite\Composite.csproj", "{81C63B87-9FDC-421B-A928-1957B252FA8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "BehavioralPatterns\State\State.csproj", "{5B5502BD-66C7-4184-BC24-5AFCCFF3A05E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "BehavioralPatterns\State\State.csproj", "{5B5502BD-66C7-4184-BC24-5AFCCFF3A05E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "StructuralPatterns\Proxy\Proxy.csproj", "{B7F7F68D-8815-49F1-AC84-653A4FA9F8F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{5B5502BD-66C7-4184-BC24-5AFCCFF3A05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B5502BD-66C7-4184-BC24-5AFCCFF3A05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B5502BD-66C7-4184-BC24-5AFCCFF3A05E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F7F68D-8815-49F1-AC84-653A4FA9F8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F7F68D-8815-49F1-AC84-653A4FA9F8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F7F68D-8815-49F1-AC84-653A4FA9F8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F7F68D-8815-49F1-AC84-653A4FA9F8F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +117,7 @@ Global
 		{09797DAD-380B-4E7E-8670-57FDFA6D9C96} = {E3AFA03E-AC1D-411F-A7EE-0C870462FE05}
 		{81C63B87-9FDC-421B-A928-1957B252FA8F} = {05D9F1A5-F821-4753-B7C4-B5A2D99F56E1}
 		{5B5502BD-66C7-4184-BC24-5AFCCFF3A05E} = {E3AFA03E-AC1D-411F-A7EE-0C870462FE05}
+		{B7F7F68D-8815-49F1-AC84-653A4FA9F8F3} = {05D9F1A5-F821-4753-B7C4-B5A2D99F56E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67F9A2B3-8AE1-4A26-B17C-829BC805DB8C}
