@@ -19,7 +19,7 @@ However, there’s a slightly different approach (and it’s a bit more canonica
 
 For instance, when a user clicks a button, the event propagates through the chain of GUI elements that starts with the button, goes along its containers (like forms or panels), and ends up with the main application window. The event is processed by the first element in the chain that’s capable of handling it. This example is also noteworthy because it shows that a chain can always be extracted from an object tree.
 
-![](https://github.com/Venfurge/DesignPatterns/blob/ChainOfResponsibility/images/CoR_diagram_.png?raw=true)
+![](https://github.com/Venfurge/DesignPatterns/blob/ChainOfResponsibility/images/CoR_diagram_3.png?raw=true)
 
 It’s crucial that all handler classes implement the same interface. Each concrete handler should only care about the following one having the execute method. This way you can compose chains at runtime, using various handlers without coupling your code to their concrete classes.
 
