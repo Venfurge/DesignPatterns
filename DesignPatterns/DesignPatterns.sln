@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "BehavioralPatter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "BehavioralPatterns\ChainOfResponsibility\ChainOfResponsibility.csproj", "{EE55C962-E10D-47FC-B584-57E0AB5EF22D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "BehavioralPatterns\Memento\Memento.csproj", "{AF3640CE-190E-40E6-BAA2-2E92AE1EDF53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "BehavioralPatterns\Memento\Memento.csproj", "{AF3640CE-190E-40E6-BAA2-2E92AE1EDF53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "BehavioralPatterns\Mediator\Mediator.csproj", "{D45DE344-C3B0-4388-A2DE-2B01C9FF3B76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{AF3640CE-190E-40E6-BAA2-2E92AE1EDF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF3640CE-190E-40E6-BAA2-2E92AE1EDF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF3640CE-190E-40E6-BAA2-2E92AE1EDF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45DE344-C3B0-4388-A2DE-2B01C9FF3B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45DE344-C3B0-4388-A2DE-2B01C9FF3B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45DE344-C3B0-4388-A2DE-2B01C9FF3B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45DE344-C3B0-4388-A2DE-2B01C9FF3B76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -167,6 +173,7 @@ Global
 		{F046B073-D8EC-40F9-867E-07B28A0D51A7} = {E3AFA03E-AC1D-411F-A7EE-0C870462FE05}
 		{EE55C962-E10D-47FC-B584-57E0AB5EF22D} = {E3AFA03E-AC1D-411F-A7EE-0C870462FE05}
 		{AF3640CE-190E-40E6-BAA2-2E92AE1EDF53} = {E3AFA03E-AC1D-411F-A7EE-0C870462FE05}
+		{D45DE344-C3B0-4388-A2DE-2B01C9FF3B76} = {E3AFA03E-AC1D-411F-A7EE-0C870462FE05}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67F9A2B3-8AE1-4A26-B17C-829BC805DB8C}
